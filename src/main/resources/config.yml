@@ -1,0 +1,12 @@
+altars:
+  arena:
+    location: "world;17.5;50.0;-16.5;59.115234;-1.5649636"
+    amount-drop: 1
+    player-need: 1
+    radius: 5
+    time-per-tick: 1
+    time-finish: 60
+    items: []
+    hologram-height: 2.5
+    hologram-lines:
+      - ""
