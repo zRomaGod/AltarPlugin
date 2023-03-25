@@ -53,8 +53,7 @@ public final class AltarPlugin extends JavaPlugin {
         this.getServer().getPluginManager().registerEvents(new AltarListener(), this);
         new AltarRunnable().runTaskTimer(this, 20L, 20L);
 
-        BukkitUtils.sendMessage(Bukkit.getConsoleSender(), "&aplugin started successfully ({time} ms)"
-                .replace("{time}",""+(System.currentTimeMillis() - start)));
+        BukkitUtils.sendMessage(Bukkit.getConsoleSender(), "&aplugin started successfully ({time} ms)".replace("{time}",""+(System.currentTimeMillis() - start)));
         enable.set(true);
     }
 
