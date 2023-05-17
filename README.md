@@ -1,1 +1,1 @@
-# AltarPlugin for RankUP
+# Plugin simples de altar para rankup.
