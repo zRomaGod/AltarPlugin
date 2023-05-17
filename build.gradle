@@ -28,8 +28,6 @@ dependencies {
             'org.spigotmc:spigot:1.8.8-R0.1-SNAPSHOT',
             'net.luckperms:api:5.4'
     )
-
-    compileOnly fileTree('libs')
 }
 
 shadowJar {
@@ -45,6 +43,6 @@ compileJava {
     targetCompatibility('1.8')
 }
 
-tasks.withType(Jar) {
-    destinationDirectory.set(file('C:/Users/estev/OneDrive/Área de Trabalho/RankUP/plugins'))
+tasks.withType(Jar).configureEach {
+    //destinationDirectory.set(file('destino do seu plugin'))
 }
