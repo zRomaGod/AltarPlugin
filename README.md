@@ -1,1 +1,1 @@
-# AltarPlugin
+# AltarPlugin for RankUP
